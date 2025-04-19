@@ -35,7 +35,7 @@ $("#" + randomChosenColor).fadeOut(100).fadeIn(100);
 
 
 function playSound(name){
-    var audio = new Audio("sounds/" + name + ".mp3"); // Create a new audio object for the clicked color
+    var audio = new Audio(name + ".mp3"); // Create a new audio object for the clicked color
     audio.play(); // Play the sound associated with the clicked color
 
 } // Play the sound associated with the clicked color
